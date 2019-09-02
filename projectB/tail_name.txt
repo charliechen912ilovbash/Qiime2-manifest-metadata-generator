@@ -1,0 +1,4 @@
+#If input data is single-end, please keep it blank after "Reverse_read_file_tail: ".
+#E.g. the sample name of sample1_L001_R1.fastq.gz will become sample1.
+Forward_read_file_tail: _L001_R1.fastq.gz 
+Reverse_read_file_tail: _L001_R2.fastq.gz
