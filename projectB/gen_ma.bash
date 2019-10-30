@@ -1,6 +1,6 @@
 #!/bin/bash
 wd=`pwd`
-project=`basename ${wd}`
+project=`basename "${wd}"`
 BIRed='\033[1;91m'
 BIGreen='\033[1;92m' 
 Color_Off='\033[0m'
@@ -31,4 +31,4 @@ if ! [ -z "$F" ]
 fi
 echo -e "${BIGreen}${project}_manifest.csv has been successfully generated at ${wd}/.${Color_Off}"
 
-rm ${wd}/*.tmp 2>/dev/null
+rm "${wd}"/*.tmp 2>/dev/null
